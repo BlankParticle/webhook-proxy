@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
   return (
-    <html lang="en" className="h-svh max-h-svh" suppressHydrationWarning>
+    <html lang="en" className="h-svh max-h-svh font-sans" suppressHydrationWarning>
       <body className={cn(inter.variable, jetBrainsMono.variable, "h-full antialiased")}>
         <ThemeProvider
           enableColorScheme
